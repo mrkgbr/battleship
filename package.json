@@ -1,0 +1,20 @@
+{
+  "name": "battleship",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Project: Battleship - The Odin Project   Project description is [here](https://www.theodinproject.com/lessons/node-path-javascript-battleship)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
