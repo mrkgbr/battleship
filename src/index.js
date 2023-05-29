@@ -1,7 +1,9 @@
-const myFunction = require("./myFunction");
+const Ship = require("./factories/ship");
 
-const body = document.querySelector("body");
-const title = document.createElement("h1");
-title.textContent = "Battleship project";
-body.appendChild(title);
-console.log(myFunction("testing"));
+const ship = new Ship(4);
+ship.hit();
+ship.hit();
+ship.hit();
+ship.hit();
+console.log(ship.isSunk());
+console.log(ship.getHits());
