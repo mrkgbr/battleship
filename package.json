@@ -1,6 +1,5 @@
 {
   "name": "battleship",
-  "type": "module",
   "version": "1.0.0",
   "description": "Project: Battleship - The Odin Project   Project description is [here](https://www.theodinproject.com/lessons/node-path-javascript-battleship)",
   "main": "index.js",
